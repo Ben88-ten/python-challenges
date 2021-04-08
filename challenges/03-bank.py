@@ -5,7 +5,7 @@ import time
 
 print("Welcome to Chase bank.")
 
-time.sleep(3)
+time.sleep(2)
 
 Name = input("What is your name?")
 
@@ -14,7 +14,7 @@ liste = ["Smith", "1960" , 3000]
 
 
 if  Name == liste[0]:
-    print ("dear Mr. " + Name)
+    print ("Dear Mr. " + Name)
     age = input("Please enter your date of birth to confirm:")
 
 if age == liste[1]:
